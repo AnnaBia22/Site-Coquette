@@ -1,0 +1,158 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f2f6;
+    color: #333;
+}
+
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 2px solid #f1c6e3;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-family: 'Cursive', sans-serif;
+    font-size: 2.5em;
+    color: #f28f8f;
+}
+
+.coquette {
+    color: #f5a3c7; 
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #f28f8f;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #d18fa7; 
+}
+
+/* Banner Principal */
+.banner {
+    background-image: url('banner-image.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-text h2 {
+    font-size: 3em;
+    font-family: 'Cursive', sans-serif;
+    color: #f5a3c7;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #f5a3c7;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 1.1em;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #f28f8f;
+}
+
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-family: 'Cursive', sans-serif;
+    color: #f28f8f;
+    margin-bottom: 30px;
+}
+
+.lookbook, .dicas, .posts {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.look, .dica, .post {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.look img, .dica img, .post img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.look p, .dica p, .post p {
+    margin-top: 15px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+a {
+    color: #f28f8f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d18fa7;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
